@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: "notes-h5",
-      script: "note-h5-deploy.js",
+      script: "notes-h5-deploy.js",
     },
   ],
   deploy: {
