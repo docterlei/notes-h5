@@ -4,7 +4,7 @@ import { Toast } from "zarm";
 const MODE = import.meta.env.MODE; // 环境变量
 
 axios.defaults.baseURL =
-  MODE == "development" ? "/api" : "http://47.111.242.149:5021";
+  MODE == "development" ? "/api" : "http://47.111.242.149:7001";
 axios.defaults.withCredentials = true;
 axios.defaults.headers["X-Requested-With"] = "XMLHttpRequest";
 axios.defaults.headers["Authorization"] = `${
