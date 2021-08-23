@@ -8,7 +8,7 @@ module.exports = {
   deploy: {
     production: {
       user: "root",
-      host: "47.111.242.147",
+      host: "47.111.242.149",
       ref: "origin/main",
       repo: "git@github.com:docterlei/notes-h5.git",
       path: "/workspace/notes-h5",
